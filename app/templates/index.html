@@ -1,7 +1,22 @@
 {%extends "base.html"%}
 {%block title%}Safe Route{%endblock%}
 {%block content%}
-<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
+<div class="container mt-5 mb-5 pt-3">
+    <div class="row">
+      <div class="col-6" style="white">
+        <!-- Content for the first half of the container -->
+        <h1>SafeRoute</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti iste excepturi aliquam. Porro neque autem dolorum enim, eveniet voluptate nisi quam earum repudiandae similique quia adipisci dolores, quis commodi expedita?
+        </p>
+      </div>
+      <div class="col-6 text-center">
+        <!-- Content for the second half of the container -->
+        <img src="{{url_for('static',filename='carousel1.jpeg')}}" class="d-block w-100" alt="...">
+      </div>
+    </div>
+  </div>
+
+<div id="carouselExampleIndicators" class="container carousel slide carousel-fade" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -39,8 +54,9 @@
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
-</div>
+</div> 
 
+  
 <!-- digital product showcase start-->
 <section class="bg-color more-info-section">
     <div class="container">
