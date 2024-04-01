@@ -58,7 +58,7 @@ Run the app in your browser:
 
 ## Tech Stack
 
-**Client:** React, Javascript
+**Client:** React, Javascript,HTML,CSS
 
 **Server:** Python,Flask,Firebase,Sklearn,Azure cloud
 
